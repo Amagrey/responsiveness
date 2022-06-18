@@ -1,0 +1,130 @@
+body {
+    background: hsl(0, 100%, 74%);
+    background-image: url(bg-intro-desktop.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-size: 16px;
+    font-family: poppins;
+  }
+  span {
+    font-size: 10px;
+    /* color: red; */
+    margin-left: auto;
+  }
+  h1 {
+    font-size: 3rem;
+    line-height: 60px;
+  }
+  .form_group {
+    margin: 1px 0;
+    position: relative;
+    text-align: right;
+    /* display: flex; */
+  }
+  
+  main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-family: poppins;
+    padding: 50px;
+  }
+  main > * {
+    width: 40%;
+  }
+  .content {
+    color: white;
+    text-align: left;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    /*    box-shadow: -2px 3px 2px rgba(0, 0, 0, 0.3); */
+    box-shadow: 0px 1px 1px 2px rgba(0, 0, 0, 0.25);
+  }
+  input {
+    background: transparent;
+    width: 95%;
+    margin: auto;
+    padding: 12px;
+    border: 1px solid #eeeeee;
+    /*   font-size: 16px; */
+    margin: 10px 0;
+    /*   top and bottom= 10px lef and right 0 */
+    border-radius: 5px;
+    font-family: poppins;
+  }
+  .err_img {
+    position: absolute;
+    right: 10px;
+    top: 23px;
+    height: 17px;
+    display: none;
+  }
+  .form-head {
+    background-color: hsl(248, 32%, 49%);
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.5);
+  }
+  button {
+    background: hsl(154, 59%, 51%);
+    border: none;
+    border-radius: 5px;
+    font-family: poppins;
+    cursor: pointer;
+    padding: 10px;
+    transition: 0.4s ease;
+    box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.5);
+    color: white;
+  }
+  /* .btnn {
+      text-decoration: none;
+      color: white;
+      text-align: center;
+    } */
+  button:hover {
+    color: red;
+  }
+  .form h6 {
+    color: gray;
+    text-align: center;
+  }
+  .tc {
+    color: rgb(141, 5, 5);
+  }
+  .footer{
+      color: gray;
+      font-size: 13px;
+      text-align: center;
+      margin-top: 20px;
+  }
+  
+  @media screen and (max-width: 679px) {
+    main {
+      flex-direction: column;
+      padding: 10px;
+    }
+    main > * {
+      width: 100%;
+    }
+    h1 {
+      font-size: 1.6rem;
+      line-height: normal;
+      text-align: center;
+    }
+    p {
+      text-align: center;
+    }
+    .form-head {
+      margin-top: 50px;
+    }
+  }
+  

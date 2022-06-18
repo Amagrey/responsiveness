@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Form sheet</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <main>
+      <div class="content">
+        <h1>Learn to code by watching others</h1>
+        <p>
+          see how developers solve problems in real time. watching scripted
+          tutorials is great but understanding how developers think is
+          invaluable.
+        </p>
+      </div>
+
+      <div class="form">
+        <h3 class="form-head">Try it free 7days then $20/mo, thereafter</h3>
+        <form id="form" action="/" method="get">
+          <div class="form_group">
+            <input
+              type="text"
+              id="f-name"
+              name="name"
+              placeholder="First name"
+            />
+            <img id="fn_err_img" class="err_img" src="icon-error.svg" />
+            <span id="first_name_err"></span>
+          </div>
+
+          <div class="form_group">
+            <input
+              type="text"
+              id="l-name"
+              name="name"
+              placeholder="Last name"
+            />
+            <span id="last_name_err"></span>
+            <img id="ln_err_img"  class="err_img" src="icon-error.svg" />
+          </div>
+          <div class="form_group">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email Address"
+            />
+            <span id="email_err"></span>
+            <img id="em_err_img"  class="err_img" src="icon-error.svg" />
+          </div>
+          <div class="form_group">
+            <input
+              type="password"
+              name=""
+              placeholder="Password"
+              id="password"
+            />
+            <span id="password_err"></span>
+            <img id="pd_err_img"  class="err_img" src="icon-error.svg" />
+          </div>
+
+          <button type="submit" id="button" class="btnn">
+            CLAIM YOUR FREE TRIAL
+          </button>
+          <p class="footer"> 
+            By clicking the button, you are signing to our
+            <a href="#" class="tc"> Terms and Services.</a>
+          </p>
+        </form>
+      </div>
+    </main>
+    <script src="https://fonts.google.com/specimen/poppins"></script>
+  </body>
+</html>
